@@ -11,7 +11,7 @@ export const NavbarComponent: React.FC = () => {
       <ul className={classes.list}>
         <li
           className={
-            pathname.startsWith(routesPrefixes.accountList)
+            pathname.startsWith(routesPrefixes.accountList) || pathname.startsWith(AppRoutes.createAccount)
               ? classes.selected
               : ""
           }
@@ -20,7 +20,7 @@ export const NavbarComponent: React.FC = () => {
         </li>
         <li
           className={
-           id && pathname.startsWith(generatePath(AppRoutes.movements, { id }))
+           id && pathname.startsWith(generatePath(AppRoutes.movements, { id })) 
               ? classes.selected
               : ""
           }

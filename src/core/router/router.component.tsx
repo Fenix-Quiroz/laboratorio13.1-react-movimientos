@@ -1,6 +1,6 @@
 import {
   AccountListPage,
-  AccountPage,
+  CreateAccountPage,
   LoginPage,
   MovementListPage,
   TransferPage,
@@ -14,7 +14,7 @@ export const Router = () => {
       <Routes>
         <Route path={AppRoutes.root} element={<LoginPage />} />
         <Route path={AppRoutes.accountList} element={<AccountListPage />} />
-        <Route path={AppRoutes.editAccount} element={<AccountPage />} />
+        <Route path={AppRoutes.createAccount} element={<CreateAccountPage />} />
         <Route path={AppRoutes.movements} element={<MovementListPage />} />
         <Route path={AppRoutes.transfer} element={<TransferPage />} />
         <Route

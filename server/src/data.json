@@ -23,6 +23,45 @@
       "name": "Ahorro",
       "balance": 8500,
       "lastTransaction": "2019-11-15T08:29:04"
+    },
+    {
+      "iban": "IL74 0620 3816 4488 2366 800",
+      "type": "1",
+      "balance": 0,
+      "lastTransaction": "2025-04-22T14:55:53.997Z",
+      "id": "DU0nw4J"
+    },
+    {
+      "iban": "HU64 0320 9008 6300 0705 7078 0082",
+      "name": "test2",
+      "type": "1",
+      "balance": 0,
+      "lastTransaction": "2025-04-22T14:56:35.638Z",
+      "id": "MXoCs57"
+    },
+    {
+      "iban": "CR43 3471 0058 0130 6600 2",
+      "name": "Empresa",
+      "type": "3",
+      "balance": 0,
+      "lastTransaction": "2025-04-22T15:05:32.746Z",
+      "id": "Hjr-Xzn"
+    },
+    {
+      "iban": "DE57 0019 0059 2300 3320 03",
+      "name": "",
+      "type": "1",
+      "balance": 0,
+      "lastTransaction": "2025-04-22T15:12:45.653Z",
+      "id": "GK2Fdu7"
+    },
+    {
+      "iban": "VG07 A19C 8031 8141 2538 5941",
+      "name": "test3",
+      "type": "1",
+      "balance": 0,
+      "lastTransaction": "2025-04-22T15:13:36.160Z",
+      "id": "E6Fp4E-"
     }
   ],
   "movements": [
@@ -108,5 +147,39 @@
       "accountId": "3"
     }
   ],
-  "transfer": []
+  "transfer": [
+    {
+      "accountId": "3",
+      "iban": "ES91 2100 0418 4502 0005 1332",
+      "name": "CR7",
+      "amount": "10",
+      "concept": "Compras del mes",
+      "notes": "",
+      "transferDate": "Mon Apr 21 2025",
+      "realTransferDate": "",
+      "id": 1
+    },
+    {
+      "accountId": "2",
+      "iban": "ES91 2100 0418 4502 0005 1332",
+      "name": "Terrence ",
+      "amount": "122",
+      "concept": "concepto",
+      "notes": "",
+      "transferDate": "Mon Apr 21 2025",
+      "realTransferDate": "",
+      "id": 2
+    },
+    {
+      "accountId": "2",
+      "iban": "ES91 2100 0418 4502 0005 1332",
+      "name": "CR7",
+      "amount": "1900",
+      "concept": "Luz ",
+      "notes": "Observaciones",
+      "transferDate": "Mon Apr 21 2025",
+      "realTransferDate": "",
+      "id": 3
+    }
+  ]
 }

@@ -6,7 +6,7 @@ export const routesPrefixes = {
 export const AppRoutes = {
     root: "/",
     accountList: routesPrefixes.accountList,
-    editAccount: "/edit-account/:id",
+    createAccount: "/create-account",
     movements: "/movements/:id",
     transfer: routesPrefixes.transfer,
     transferFromAccount: `${routesPrefixes.transfer}/:id`,
